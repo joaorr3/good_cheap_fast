@@ -22,10 +22,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.toggle-wrapper {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+
+  .react-switch {
+    padding-right: 20px;
+  }
+}
+
+.explanation {
+  font-size: 12px;
 }
 
 @keyframes App-logo-spin {
