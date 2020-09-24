@@ -1,9 +1,10 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import './App.scss';
 
 import React, { useEffect, useState } from 'react';
 import Switch from 'react-switch';
 
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable react-hooks/exhaustive-deps */
 interface ToggleProps {
   checked: boolean;
   onChange: () => void;
@@ -150,6 +151,12 @@ const App = () => {
           </p>
         </div>
       </header>
+      <div className="copy-right">
+        developed by{" "}
+        <a href="https://www.instagram.com/joaoduarteribeiro/" target="_blank">
+          joaoduarteribeiro
+        </a>
+      </div>
     </div>
   );
 };
